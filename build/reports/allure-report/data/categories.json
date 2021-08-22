@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element should be visible {[class=notification__title][1]}\r\nElement: '<div class=\"notification__title\" displayed:false></div>'\r\nActual value: visible:false\r\nScreenshot: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1629668485872.0.png\r\nPage source: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1629668485872.0.html\r\nTimeout: 15 s.",
+      "children" : [ {
+        "name" : "declinedDebitBuy()",
+        "uid" : "7ef206357ad710b7",
+        "parentUid" : "0e1f5280e24843eb314c0938bddda2d2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629668469362,
+          "stop" : 1629668486135,
+          "duration" : 16773
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0e1f5280e24843eb314c0938bddda2d2"
+    }, {
+      "name" : "Element should be visible {[class=notification__title][1]}\r\nElement: '<div class=\"notification__title\" displayed:false></div>'\r\nActual value: visible:false\r\nScreenshot: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1629668508714.1.png\r\nPage source: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1629668508714.1.html\r\nTimeout: 15 s.",
+      "children" : [ {
+        "name" : "declinedCreditBuy()",
+        "uid" : "6e8aacc9f9196450",
+        "parentUid" : "dc3987445f6e80dd9fa9835afcc18ec6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629668492201,
+          "stop" : 1629668508946,
+          "duration" : 16745
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dc3987445f6e80dd9fa9835afcc18ec6"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

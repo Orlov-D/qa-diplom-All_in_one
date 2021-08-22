@@ -1,0 +1,70 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "successfulCreditBuy()",
+    "uid" : "8865da86e4d79c48",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1629668446424,
+      "stop" : 1629668461049,
+      "duration" : 14625
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "successfulDebitBuy()",
+    "uid" : "63d30b0c1e49a06f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1629668461223,
+      "stop" : 1629668469352,
+      "duration" : 8129
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "declinedDebitBuy()",
+    "uid" : "7ef206357ad710b7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1629668469362,
+      "stop" : 1629668486135,
+      "duration" : 16773
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "shouldGetErrorMessage()",
+    "uid" : "edb4a16fea37c300",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1629668486151,
+      "stop" : 1629668492194,
+      "duration" : 6043
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "declinedCreditBuy()",
+    "uid" : "6e8aacc9f9196450",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1629668492201,
+      "stop" : 1629668508946,
+      "duration" : 16745
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ]
+}

@@ -1,0 +1,57 @@
+{
+  "uid" : "63d30b0c1e49a06f",
+  "name" : "successfulDebitBuy()",
+  "fullName" : "ru.netology.travel.AppTest.successfulDebitBuy",
+  "historyId" : "ecdcd24c2e757e22fc2b9c1b921667f7",
+  "time" : {
+    "start" : 1629668461223,
+    "stop" : 1629668469352,
+    "duration" : 8129
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-JOUMFLL"
+  }, {
+    "name" : "thread",
+    "value" : "13612@DESKTOP-JOUMFLL.Test worker(13)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ru.netology.travel.AppTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.netology.travel.AppTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "successfulDebitBuy"
+  }, {
+    "name" : "suite",
+    "value" : "ru.netology.travel.AppTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "63d30b0c1e49a06f.json",
+  "parameterValues" : [ ]
+}

@@ -6,6 +6,13 @@
 1. Открыть новую консоль.
 1. Выполнить в терминале команду `java -jar artifacts/aqa-shop.jar`
 
+После прохождения тестов, в последнем терминале остановить 
+работу приложения сочетанием клавиш ctrl + C.
+1. В файле `application.properties` раскомментировать 3 строку 
+и закомментировать 4 строку. (удалить # перед третьей строкой и 
+поставить перед 4)
+1. В файле `AppTest` переменной `database` присвоить значение `mysql`.
+
 <!--
 docker-compose up
 java -jar artifacts/aqa-shop.jar  -P:jdbc.url=jdbc:mysql://localhost:3306/app -P:jdbc.user=app -P:jdbc.password=pass
@@ -15,7 +22,9 @@ show tables;
 SELECT * FROM payment_entity;
 SELECT * FROM order_entity;
 SELECT * FROM credit_request_entity;
-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
+
+gradlew allureReport
+gradlew allureServe
 
 cd gate-simulator
 docker image build -t node-app:1.0 .

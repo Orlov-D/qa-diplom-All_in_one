@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Aug 23 00:40:46 MSK 2021","Mon Aug 23 00:41:01 MSK 2021","14625","","ru.netology.travel.AppTest","","ru.netology.travel.AppTest","successfulCreditBuy","successfulCreditBuy()",""
+"failed","Mon Aug 23 00:41:32 MSK 2021","Mon Aug 23 00:41:48 MSK 2021","16745","","ru.netology.travel.AppTest","","ru.netology.travel.AppTest","declinedCreditBuy","declinedCreditBuy()",""
+"failed","Mon Aug 23 00:41:09 MSK 2021","Mon Aug 23 00:41:26 MSK 2021","16773","","ru.netology.travel.AppTest","","ru.netology.travel.AppTest","declinedDebitBuy","declinedDebitBuy()",""
+"passed","Mon Aug 23 00:41:01 MSK 2021","Mon Aug 23 00:41:09 MSK 2021","8129","","ru.netology.travel.AppTest","","ru.netology.travel.AppTest","successfulDebitBuy","successfulDebitBuy()",""
+"passed","Mon Aug 23 00:41:26 MSK 2021","Mon Aug 23 00:41:32 MSK 2021","6043","","ru.netology.travel.AppTest","","ru.netology.travel.AppTest","shouldGetErrorMessage","shouldGetErrorMessage()",""
