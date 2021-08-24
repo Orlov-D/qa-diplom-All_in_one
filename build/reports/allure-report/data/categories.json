@@ -4,39 +4,39 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Element should be visible {[class=notification__title][1]}\r\nElement: '<div class=\"notification__title\" displayed:false></div>'\r\nActual value: visible:false\r\nScreenshot: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1629668485872.0.png\r\nPage source: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1629668485872.0.html\r\nTimeout: 15 s.",
+      "name" : "Element should be visible {[class=notification__title][1]}\r\nElement: '<div class=\"notification__title\" displayed:false></div>'\r\nActual value: visible:false\r\nScreenshot: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1629841393881.0.png\r\nPage source: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1629841393881.0.html\r\nTimeout: 15 s.",
       "children" : [ {
         "name" : "declinedDebitBuy()",
-        "uid" : "7ef206357ad710b7",
-        "parentUid" : "0e1f5280e24843eb314c0938bddda2d2",
+        "uid" : "edbc19286b4041e4",
+        "parentUid" : "4722cda5fda053b3301e070a58b3878a",
         "status" : "failed",
         "time" : {
-          "start" : 1629668469362,
-          "stop" : 1629668486135,
-          "duration" : 16773
+          "start" : 1629841376009,
+          "stop" : 1629841394365,
+          "duration" : 18356
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "0e1f5280e24843eb314c0938bddda2d2"
+      "uid" : "4722cda5fda053b3301e070a58b3878a"
     }, {
-      "name" : "Element should be visible {[class=notification__title][1]}\r\nElement: '<div class=\"notification__title\" displayed:false></div>'\r\nActual value: visible:false\r\nScreenshot: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1629668508714.1.png\r\nPage source: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1629668508714.1.html\r\nTimeout: 15 s.",
+      "name" : "Element should be visible {[class=notification__title][1]}\r\nElement: '<div class=\"notification__title\" displayed:false></div>'\r\nActual value: visible:false\r\nScreenshot: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1629841415683.1.png\r\nPage source: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1629841415683.1.html\r\nTimeout: 15 s.",
       "children" : [ {
         "name" : "declinedCreditBuy()",
-        "uid" : "6e8aacc9f9196450",
-        "parentUid" : "dc3987445f6e80dd9fa9835afcc18ec6",
+        "uid" : "5c5c233276a7bf58",
+        "parentUid" : "9690ea31223ba41831fc3de87d7c674b",
         "status" : "failed",
         "time" : {
-          "start" : 1629668492201,
-          "stop" : 1629668508946,
-          "duration" : 16745
+          "start" : 1629841394381,
+          "stop" : 1629841415996,
+          "duration" : 21615
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "dc3987445f6e80dd9fa9835afcc18ec6"
+      "uid" : "9690ea31223ba41831fc3de87d7c674b"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]

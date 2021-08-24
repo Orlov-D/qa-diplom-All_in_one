@@ -9,12 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "63d30b0c1e49a06f",
+      "uid" : "cc604babff1be31e",
       "status" : "passed",
       "time" : {
-        "start" : 1629668461223,
-        "stop" : 1629668469352,
-        "duration" : 8129
+        "start" : 1629841364427,
+        "stop" : 1629841375967,
+        "duration" : 11540
       }
     } ]
   },
@@ -28,13 +28,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6e8aacc9f9196450",
+      "uid" : "5c5c233276a7bf58",
       "status" : "failed",
-      "statusDetails" : "Element should be visible {[class=notification__title][1]}\r\nElement: '<div class=\"notification__title\" displayed:false></div>'\r\nActual value: visible:false\r\nScreenshot: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1629668508714.1.png\r\nPage source: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1629668508714.1.html\r\nTimeout: 15 s.",
+      "statusDetails" : "Element should be visible {[class=notification__title][1]}\r\nElement: '<div class=\"notification__title\" displayed:false></div>'\r\nActual value: visible:false\r\nScreenshot: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1629841415683.1.png\r\nPage source: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1629841415683.1.html\r\nTimeout: 15 s.",
       "time" : {
-        "start" : 1629668492201,
-        "stop" : 1629668508946,
-        "duration" : 16745
+        "start" : 1629841394381,
+        "stop" : 1629841415996,
+        "duration" : 21615
       }
     } ]
   },
@@ -48,12 +48,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8865da86e4d79c48",
+      "uid" : "fd733b799bcb7631",
       "status" : "passed",
       "time" : {
-        "start" : 1629668446424,
-        "stop" : 1629668461049,
-        "duration" : 14625
+        "start" : 1629841336283,
+        "stop" : 1629841362886,
+        "duration" : 26603
       }
     } ]
   },
@@ -67,32 +67,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7ef206357ad710b7",
+      "uid" : "edbc19286b4041e4",
       "status" : "failed",
-      "statusDetails" : "Element should be visible {[class=notification__title][1]}\r\nElement: '<div class=\"notification__title\" displayed:false></div>'\r\nActual value: visible:false\r\nScreenshot: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1629668485872.0.png\r\nPage source: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1629668485872.0.html\r\nTimeout: 15 s.",
+      "statusDetails" : "Element should be visible {[class=notification__title][1]}\r\nElement: '<div class=\"notification__title\" displayed:false></div>'\r\nActual value: visible:false\r\nScreenshot: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1629841393881.0.png\r\nPage source: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1629841393881.0.html\r\nTimeout: 15 s.",
       "time" : {
-        "start" : 1629668469362,
-        "stop" : 1629668486135,
-        "duration" : 16773
-      }
-    } ]
-  },
-  "9b0f09ccb55fe21b26d7956804c66fa5" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "edb4a16fea37c300",
-      "status" : "passed",
-      "time" : {
-        "start" : 1629668486151,
-        "stop" : 1629668492194,
-        "duration" : 6043
+        "start" : 1629841376009,
+        "stop" : 1629841394365,
+        "duration" : 18356
       }
     } ]
   }

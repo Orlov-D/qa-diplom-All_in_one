@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.netology.travel.AppTest" tests="5" skipped="0" failures="2" errors="0" timestamp="2021-08-22T21:40:46" hostname="DESKTOP-JOUMFLL" time="62.528">
+<testsuite name="ru.netology.travel.AppTest" tests="4" skipped="0" failures="2" errors="0" timestamp="2021-08-24T21:42:16" hostname="DESKTOP-JOUMFLL" time="79.705">
   <properties/>
-  <testcase name="successfulCreditBuy()" classname="ru.netology.travel.AppTest" time="14.775"/>
-  <testcase name="successfulDebitBuy()" classname="ru.netology.travel.AppTest" time="8.15"/>
-  <testcase name="declinedDebitBuy()" classname="ru.netology.travel.AppTest" time="16.785">
-    <failure message="Element should be visible {[class=notification__title][1]}&#13;&#10;Element: '&lt;div class=&quot;notification__title&quot; displayed:false&gt;&lt;/div&gt;'&#13;&#10;Actual value: visible:false&#13;&#10;Screenshot: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1629668485872.0.png&#13;&#10;Page source: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1629668485872.0.html&#13;&#10;Timeout: 15 s." type="com.codeborne.selenide.ex.ElementShould">Element should be visible {[class=notification__title][1]}
+  <testcase name="successfulCreditBuy()" classname="ru.netology.travel.AppTest" time="28.12"/>
+  <testcase name="successfulDebitBuy()" classname="ru.netology.travel.AppTest" time="11.576"/>
+  <testcase name="declinedDebitBuy()" classname="ru.netology.travel.AppTest" time="18.371">
+    <failure message="Element should be visible {[class=notification__title][1]}&#13;&#10;Element: '&lt;div class=&quot;notification__title&quot; displayed:false&gt;&lt;/div&gt;'&#13;&#10;Actual value: visible:false&#13;&#10;Screenshot: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1629841393881.0.png&#13;&#10;Page source: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1629841393881.0.html&#13;&#10;Timeout: 15 s." type="com.codeborne.selenide.ex.ElementShould">Element should be visible {[class=notification__title][1]}
 Element: '&lt;div class=&quot;notification__title&quot; displayed:false&gt;&lt;/div&gt;'
 Actual value: visible:false
-Screenshot: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1629668485872.0.png
-Page source: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1629668485872.0.html
+Screenshot: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1629841393881.0.png
+Page source: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1629841393881.0.html
 Timeout: 15 s.
 	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:121)
 	at com.codeborne.selenide.commands.Should.execute(Should.java:30)
@@ -109,13 +109,12 @@ Timeout: 15 s.
 	at java.base/java.lang.Thread.run(Thread.java:829)
 </failure>
   </testcase>
-  <testcase name="shouldGetErrorMessage()" classname="ru.netology.travel.AppTest" time="6.042"/>
-  <testcase name="declinedCreditBuy()" classname="ru.netology.travel.AppTest" time="16.76">
-    <failure message="Element should be visible {[class=notification__title][1]}&#13;&#10;Element: '&lt;div class=&quot;notification__title&quot; displayed:false&gt;&lt;/div&gt;'&#13;&#10;Actual value: visible:false&#13;&#10;Screenshot: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1629668508714.1.png&#13;&#10;Page source: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1629668508714.1.html&#13;&#10;Timeout: 15 s." type="com.codeborne.selenide.ex.ElementShould">Element should be visible {[class=notification__title][1]}
+  <testcase name="declinedCreditBuy()" classname="ru.netology.travel.AppTest" time="21.607">
+    <failure message="Element should be visible {[class=notification__title][1]}&#13;&#10;Element: '&lt;div class=&quot;notification__title&quot; displayed:false&gt;&lt;/div&gt;'&#13;&#10;Actual value: visible:false&#13;&#10;Screenshot: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1629841415683.1.png&#13;&#10;Page source: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1629841415683.1.html&#13;&#10;Timeout: 15 s." type="com.codeborne.selenide.ex.ElementShould">Element should be visible {[class=notification__title][1]}
 Element: '&lt;div class=&quot;notification__title&quot; displayed:false&gt;&lt;/div&gt;'
 Actual value: visible:false
-Screenshot: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1629668508714.1.png
-Page source: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1629668508714.1.html
+Screenshot: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1629841415683.1.png
+Page source: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1629841415683.1.html
 Timeout: 15 s.
 	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:121)
 	at com.codeborne.selenide.commands.Should.execute(Should.java:30)
@@ -217,11 +216,11 @@ Timeout: 15 s.
 </failure>
   </testcase>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 17876
+  <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 4633
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-авг. 23, 2021 12:40:50 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+авг. 25, 2021 12:42:27 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
 </testsuite>

@@ -28,7 +28,7 @@ public class AppTest {
     @Test
     void declinedDebitBuy() {
         var order = new AppPage();
-        order.creditTour(2);
+        order.debitTour(2);
         order.verifyError();
         assertEquals("DECLINED", sqlGetters.getStatus(database));
     }
@@ -45,14 +45,6 @@ public class AppTest {
     void declinedCreditBuy() {
         var order = new AppPage();
         order.creditTour(2);
-        order.verifyError();
-        assertEquals("DECLINED", sqlGetters.getStatus(database));
-    }
-
-    @Test
-    void shouldGetErrorMessage() {
-        var order = new AppPage();
-        order.creditTour(3);
         order.verifyError();
         assertEquals("DECLINED", sqlGetters.getStatus(database));
     }

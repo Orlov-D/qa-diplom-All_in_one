@@ -3,65 +3,52 @@
   "name" : "behaviors",
   "children" : [ {
     "name" : "successfulCreditBuy()",
-    "uid" : "8865da86e4d79c48",
+    "uid" : "fd733b799bcb7631",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1629668446424,
-      "stop" : 1629668461049,
-      "duration" : 14625
+      "start" : 1629841336283,
+      "stop" : 1629841362886,
+      "duration" : 26603
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "successfulDebitBuy()",
-    "uid" : "63d30b0c1e49a06f",
+    "uid" : "cc604babff1be31e",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1629668461223,
-      "stop" : 1629668469352,
-      "duration" : 8129
+      "start" : 1629841364427,
+      "stop" : 1629841375967,
+      "duration" : 11540
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "declinedDebitBuy()",
-    "uid" : "7ef206357ad710b7",
+    "uid" : "edbc19286b4041e4",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "failed",
     "time" : {
-      "start" : 1629668469362,
-      "stop" : 1629668486135,
-      "duration" : 16773
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "shouldGetErrorMessage()",
-    "uid" : "edb4a16fea37c300",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1629668486151,
-      "stop" : 1629668492194,
-      "duration" : 6043
+      "start" : 1629841376009,
+      "stop" : 1629841394365,
+      "duration" : 18356
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "declinedCreditBuy()",
-    "uid" : "6e8aacc9f9196450",
+    "uid" : "5c5c233276a7bf58",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "failed",
     "time" : {
-      "start" : 1629668492201,
-      "stop" : 1629668508946,
-      "duration" : 16745
+      "start" : 1629841394381,
+      "stop" : 1629841415996,
+      "duration" : 21615
     },
     "flaky" : false,
     "newFailed" : false,

@@ -1,12 +1,12 @@
 {
-  "uid" : "edb4a16fea37c300",
-  "name" : "shouldGetErrorMessage()",
-  "fullName" : "ru.netology.travel.AppTest.shouldGetErrorMessage",
-  "historyId" : "9b0f09ccb55fe21b26d7956804c66fa5",
+  "uid" : "fd733b799bcb7631",
+  "name" : "successfulCreditBuy()",
+  "fullName" : "ru.netology.travel.AppTest.successfulCreditBuy",
+  "historyId" : "69bb4a00a6e14ca7f4a361e6ec55a90",
   "time" : {
-    "start" : 1629668486151,
-    "stop" : 1629668492194,
-    "duration" : 6043
+    "start" : 1629841336283,
+    "stop" : 1629841362886,
+    "duration" : 26603
   },
   "description" : "",
   "status" : "passed",
@@ -19,7 +19,7 @@
     "value" : "DESKTOP-JOUMFLL"
   }, {
     "name" : "thread",
-    "value" : "13612@DESKTOP-JOUMFLL.Test worker(13)"
+    "value" : "10752@DESKTOP-JOUMFLL.Test worker(13)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -34,7 +34,7 @@
     "value" : "ru.netology.travel.AppTest"
   }, {
     "name" : "testMethod",
-    "value" : "shouldGetErrorMessage"
+    "value" : "successfulCreditBuy"
   }, {
     "name" : "suite",
     "value" : "ru.netology.travel.AppTest"
@@ -52,6 +52,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "edb4a16fea37c300.json",
+  "source" : "fd733b799bcb7631.json",
   "parameterValues" : [ ]
 }
