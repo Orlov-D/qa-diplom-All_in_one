@@ -1,23 +1,4 @@
 {
-  "ecdcd24c2e757e22fc2b9c1b921667f7" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "cc604babff1be31e",
-      "status" : "passed",
-      "time" : {
-        "start" : 1629841364427,
-        "stop" : 1629841375967,
-        "duration" : 11540
-      }
-    } ]
-  },
   "392834fd39c996b9f236339c618b9b39" : {
     "statistic" : {
       "failed" : 1,
@@ -28,13 +9,90 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5c5c233276a7bf58",
+      "uid" : "33b5a4bd9bc0d808",
       "status" : "failed",
-      "statusDetails" : "Element should be visible {[class=notification__title][1]}\r\nElement: '<div class=\"notification__title\" displayed:false></div>'\r\nActual value: visible:false\r\nScreenshot: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1629841415683.1.png\r\nPage source: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1629841415683.1.html\r\nTimeout: 15 s.",
+      "statusDetails" : "Element should be visible {[class=notification__title][1]}\r\nElement: '<div class=\"notification__title\" displayed:false></div>'\r\nActual value: visible:false\r\nScreenshot: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1630701942902.7.png\r\nPage source: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1630701942902.7.html\r\nTimeout: 15 s.",
       "time" : {
-        "start" : 1629841394381,
-        "stop" : 1629841415996,
-        "duration" : 21615
+        "start" : 1630701926364,
+        "stop" : 1630701943170,
+        "duration" : 16806
+      }
+    } ]
+  },
+  "528631452619a2d9c5f2c9bc2d8afadd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "909564525a56c3b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630701861825,
+        "stop" : 1630701862864,
+        "duration" : 1039
+      }
+    } ]
+  },
+  "488cddbb62689d2b9aac42876c838a6c" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "149df0b8562aa1c1",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //span[@class='input__sub' and preceding-sibling::span[contains(text(), 'Владелец')]]}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1630701871497.2.png\r\nPage source: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1630701871497.2.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[@class='input__sub' and preceding-sibling::span[contains(text(), 'Владелец')]]\"}",
+      "time" : {
+        "start" : 1630701866167,
+        "stop" : 1630701871859,
+        "duration" : 5692
+      }
+    } ]
+  },
+  "2fe6418e0c519cbc9db3d3e446965f61" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b599bfe0c43de908",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630701862872,
+        "stop" : 1630701864649,
+        "duration" : 1777
+      }
+    } ]
+  },
+  "35437d3d8828f3b5c24917d44f84556" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ebdababc62d864e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630701860218,
+        "stop" : 1630701861817,
+        "duration" : 1599
       }
     } ]
   },
@@ -48,12 +106,188 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fd733b799bcb7631",
+      "uid" : "7c75c9535c8fd163",
       "status" : "passed",
       "time" : {
-        "start" : 1629841336283,
-        "stop" : 1629841362886,
-        "duration" : 26603
+        "start" : 1630701812690,
+        "stop" : 1630701835191,
+        "duration" : 22501
+      }
+    } ]
+  },
+  "dcc169a9760d9b0ae91b05c12cc2ece5" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1b433adc29763674",
+      "status" : "failed",
+      "statusDetails" : "Element should not be visible {By.xpath: //span[@class='input__sub' and preceding-sibling::span[contains(text(), 'CVC/CVV')]]}\r\nElement: '<span class=\"input__sub\">Неверный формат</span>'\r\nActual value: visible:true\r\nScreenshot: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1630701859898.1.png\r\nPage source: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1630701859898.1.html\r\nTimeout: 4 s.",
+      "time" : {
+        "start" : 1630701852918,
+        "stop" : 1630701860198,
+        "duration" : 7280
+      }
+    } ]
+  },
+  "ecdcd24c2e757e22fc2b9c1b921667f7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c17005fe7d3596bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630701835822,
+        "stop" : 1630701845885,
+        "duration" : 10063
+      }
+    } ]
+  },
+  "b25d2eafd169ce6e62b0da7571aed6b1" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a1631496ffdc4b7e",
+      "status" : "failed",
+      "statusDetails" : "Element should not be visible {By.xpath: //span[@class='input__sub' and preceding-sibling::span[contains(text(), 'Владелец')]]}\r\nElement: '<span class=\"input__sub\">Поле обязательно для заполнения</span>'\r\nActual value: visible:true\r\nScreenshot: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1630701917153.6.png\r\nPage source: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1630701917153.6.html\r\nTimeout: 4 s.",
+      "time" : {
+        "start" : 1630701911176,
+        "stop" : 1630701917503,
+        "duration" : 6327
+      }
+    } ]
+  },
+  "6a325226d80d42d6f8e66833cfdaa64c" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8dd13850469af42a",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //span[@class='input__sub' and preceding-sibling::span[contains(text(), 'Месяц')]]}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1630701893524.4.png\r\nPage source: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1630701893524.4.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[@class='input__sub' and preceding-sibling::span[contains(text(), 'Месяц')]]\"}",
+      "time" : {
+        "start" : 1630701887826,
+        "stop" : 1630701893962,
+        "duration" : 6136
+      }
+    } ]
+  },
+  "d48629cbe65e4bb9d1d1363f28fe45a4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6be672ecf683567",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630701917534,
+        "stop" : 1630701926354,
+        "duration" : 8820
+      }
+    } ]
+  },
+  "6756668c84c07eb67924cd8baefefee" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d7a73d04be56c969",
+      "status" : "failed",
+      "statusDetails" : "Element should not be visible {By.xpath: //span[@class='input__sub' and preceding-sibling::span[contains(text(), 'Владелец')]]}\r\nElement: '<span class=\"input__sub\">Поле обязательно для заполнения</span>'\r\nActual value: visible:true\r\nScreenshot: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1630701887499.3.png\r\nPage source: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1630701887499.3.html\r\nTimeout: 4 s.",
+      "time" : {
+        "start" : 1630701880990,
+        "stop" : 1630701887810,
+        "duration" : 6820
+      }
+    } ]
+  },
+  "ad8bb1e5d512f05169c16689e60cb58e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "20c4c1881e263bbc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630701871918,
+        "stop" : 1630701880983,
+        "duration" : 9065
+      }
+    } ]
+  },
+  "48ca09b9572719d833c6fc48059b86e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7db6df4bebaab96",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630701864657,
+        "stop" : 1630701866159,
+        "duration" : 1502
+      }
+    } ]
+  },
+  "2c4510850b44e0a03f0cb5c392a6f0df" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e525896759fd0ce5",
+      "status" : "failed",
+      "statusDetails" : "Element should not be visible {By.xpath: //span[@class='input__sub' and preceding-sibling::span[contains(text(), 'Номер карты')]]}\r\nElement: '<span class=\"input__sub\">Неверный формат</span>'\r\nActual value: visible:true\r\nScreenshot: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1630701852440.0.png\r\nPage source: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1630701852440.0.html\r\nTimeout: 4 s.",
+      "time" : {
+        "start" : 1630701845910,
+        "stop" : 1630701852902,
+        "duration" : 6992
       }
     } ]
   },
@@ -67,13 +301,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "edbc19286b4041e4",
+      "uid" : "dd4ec353274bd575",
       "status" : "failed",
-      "statusDetails" : "Element should be visible {[class=notification__title][1]}\r\nElement: '<div class=\"notification__title\" displayed:false></div>'\r\nActual value: visible:false\r\nScreenshot: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1629841393881.0.png\r\nPage source: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1629841393881.0.html\r\nTimeout: 15 s.",
+      "statusDetails" : "Element should be visible {[class=notification__title][1]}\r\nElement: '<div class=\"notification__title\" displayed:false></div>'\r\nActual value: visible:false\r\nScreenshot: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1630701910899.5.png\r\nPage source: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1630701910899.5.html\r\nTimeout: 15 s.",
       "time" : {
-        "start" : 1629841376009,
-        "stop" : 1629841394365,
-        "duration" : 18356
+        "start" : 1630701893978,
+        "stop" : 1630701911160,
+        "duration" : 17182
       }
     } ]
   }

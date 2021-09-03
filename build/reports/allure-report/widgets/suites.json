@@ -4,12 +4,12 @@
     "uid" : "375b62ce69a9167287b3ea2d8e80ff74",
     "name" : "ru.netology.travel.AppTest",
     "statistic" : {
-      "failed" : 2,
+      "failed" : 8,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 4
+      "total" : 16
     }
   } ]
 }

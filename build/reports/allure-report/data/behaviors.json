@@ -3,52 +3,208 @@
   "name" : "behaviors",
   "children" : [ {
     "name" : "successfulCreditBuy()",
-    "uid" : "fd733b799bcb7631",
+    "uid" : "7c75c9535c8fd163",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1629841336283,
-      "stop" : 1629841362886,
-      "duration" : 26603
+      "start" : 1630701812690,
+      "stop" : 1630701835191,
+      "duration" : 22501
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "successfulDebitBuy()",
-    "uid" : "cc604babff1be31e",
+    "uid" : "c17005fe7d3596bb",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1629841364427,
-      "stop" : 1629841375967,
-      "duration" : 11540
+      "start" : 1630701835822,
+      "stop" : 1630701845885,
+      "duration" : 10063
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "validateCardNumber()",
+    "uid" : "e525896759fd0ce5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1630701845910,
+      "stop" : 1630701852902,
+      "duration" : 6992
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "validateCodeWithBugs()",
+    "uid" : "1b433adc29763674",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1630701852918,
+      "stop" : 1630701860198,
+      "duration" : 7280
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "wrongSymbolsCardNumber()",
+    "uid" : "ebdababc62d864e6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630701860218,
+      "stop" : 1630701861817,
+      "duration" : 1599
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "emptyForm()",
+    "uid" : "909564525a56c3b1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630701861825,
+      "stop" : 1630701862864,
+      "duration" : 1039
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "wrongSymbolsYear()",
+    "uid" : "b599bfe0c43de908",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630701862872,
+      "stop" : 1630701864649,
+      "duration" : 1777
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "wrongSymbolsMonth()",
+    "uid" : "7db6df4bebaab96",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630701864657,
+      "stop" : 1630701866159,
+      "duration" : 1502
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "wrongSymbolsOwner()",
+    "uid" : "149df0b8562aa1c1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1630701866167,
+      "stop" : 1630701871859,
+      "duration" : 5692
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "validateMonth()",
+    "uid" : "20c4c1881e263bbc",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630701871918,
+      "stop" : 1630701880983,
+      "duration" : 9065
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "validateOwner()",
+    "uid" : "d7a73d04be56c969",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1630701880990,
+      "stop" : 1630701887810,
+      "duration" : 6820
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "zeroMonth()",
+    "uid" : "8dd13850469af42a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1630701887826,
+      "stop" : 1630701893962,
+      "duration" : 6136
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "declinedDebitBuy()",
-    "uid" : "edbc19286b4041e4",
+    "uid" : "dd4ec353274bd575",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "failed",
     "time" : {
-      "start" : 1629841376009,
-      "stop" : 1629841394365,
-      "duration" : 18356
+      "start" : 1630701893978,
+      "stop" : 1630701911160,
+      "duration" : 17182
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "validateCode()",
+    "uid" : "a1631496ffdc4b7e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1630701911176,
+      "stop" : 1630701917503,
+      "duration" : 6327
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "validateYear()",
+    "uid" : "6be672ecf683567",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630701917534,
+      "stop" : 1630701926354,
+      "duration" : 8820
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "declinedCreditBuy()",
-    "uid" : "5c5c233276a7bf58",
+    "uid" : "33b5a4bd9bc0d808",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "failed",
     "time" : {
-      "start" : 1629841394381,
-      "stop" : 1629841415996,
-      "duration" : 21615
+      "start" : 1630701926364,
+      "stop" : 1630701943170,
+      "duration" : 16806
     },
     "flaky" : false,
     "newFailed" : false,

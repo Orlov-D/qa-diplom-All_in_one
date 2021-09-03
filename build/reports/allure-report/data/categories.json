@@ -4,39 +4,141 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Element should be visible {[class=notification__title][1]}\r\nElement: '<div class=\"notification__title\" displayed:false></div>'\r\nActual value: visible:false\r\nScreenshot: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1629841393881.0.png\r\nPage source: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1629841393881.0.html\r\nTimeout: 15 s.",
+      "name" : "Element should not be visible {By.xpath: //span[@class='input__sub' and preceding-sibling::span[contains(text(), 'Номер карты')]]}\r\nElement: '<span class=\"input__sub\">Неверный формат</span>'\r\nActual value: visible:true\r\nScreenshot: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1630701852440.0.png\r\nPage source: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1630701852440.0.html\r\nTimeout: 4 s.",
+      "children" : [ {
+        "name" : "validateCardNumber()",
+        "uid" : "e525896759fd0ce5",
+        "parentUid" : "2731322cc4ff6500ca1060d204ab34e1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1630701845910,
+          "stop" : 1630701852902,
+          "duration" : 6992
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2731322cc4ff6500ca1060d204ab34e1"
+    }, {
+      "name" : "Element should not be visible {By.xpath: //span[@class='input__sub' and preceding-sibling::span[contains(text(), 'CVC/CVV')]]}\r\nElement: '<span class=\"input__sub\">Неверный формат</span>'\r\nActual value: visible:true\r\nScreenshot: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1630701859898.1.png\r\nPage source: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1630701859898.1.html\r\nTimeout: 4 s.",
+      "children" : [ {
+        "name" : "validateCodeWithBugs()",
+        "uid" : "1b433adc29763674",
+        "parentUid" : "eb01b945eca64d74acb42ae5afe9cc2e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1630701852918,
+          "stop" : 1630701860198,
+          "duration" : 7280
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "eb01b945eca64d74acb42ae5afe9cc2e"
+    }, {
+      "name" : "Element not found {By.xpath: //span[@class='input__sub' and preceding-sibling::span[contains(text(), 'Владелец')]]}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1630701871497.2.png\r\nPage source: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1630701871497.2.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[@class='input__sub' and preceding-sibling::span[contains(text(), 'Владелец')]]\"}",
+      "children" : [ {
+        "name" : "wrongSymbolsOwner()",
+        "uid" : "149df0b8562aa1c1",
+        "parentUid" : "997800d95e93f5544f93010c56f7682c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1630701866167,
+          "stop" : 1630701871859,
+          "duration" : 5692
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "997800d95e93f5544f93010c56f7682c"
+    }, {
+      "name" : "Element should not be visible {By.xpath: //span[@class='input__sub' and preceding-sibling::span[contains(text(), 'Владелец')]]}\r\nElement: '<span class=\"input__sub\">Поле обязательно для заполнения</span>'\r\nActual value: visible:true\r\nScreenshot: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1630701887499.3.png\r\nPage source: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1630701887499.3.html\r\nTimeout: 4 s.",
+      "children" : [ {
+        "name" : "validateOwner()",
+        "uid" : "d7a73d04be56c969",
+        "parentUid" : "cc881ac1132c75d7ea3059f39e834cc0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1630701880990,
+          "stop" : 1630701887810,
+          "duration" : 6820
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cc881ac1132c75d7ea3059f39e834cc0"
+    }, {
+      "name" : "Element not found {By.xpath: //span[@class='input__sub' and preceding-sibling::span[contains(text(), 'Месяц')]]}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1630701893524.4.png\r\nPage source: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1630701893524.4.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[@class='input__sub' and preceding-sibling::span[contains(text(), 'Месяц')]]\"}",
+      "children" : [ {
+        "name" : "zeroMonth()",
+        "uid" : "8dd13850469af42a",
+        "parentUid" : "6e26853f6baf3861c8cde2d499df9142",
+        "status" : "failed",
+        "time" : {
+          "start" : 1630701887826,
+          "stop" : 1630701893962,
+          "duration" : 6136
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6e26853f6baf3861c8cde2d499df9142"
+    }, {
+      "name" : "Element should be visible {[class=notification__title][1]}\r\nElement: '<div class=\"notification__title\" displayed:false></div>'\r\nActual value: visible:false\r\nScreenshot: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1630701910899.5.png\r\nPage source: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1630701910899.5.html\r\nTimeout: 15 s.",
       "children" : [ {
         "name" : "declinedDebitBuy()",
-        "uid" : "edbc19286b4041e4",
-        "parentUid" : "4722cda5fda053b3301e070a58b3878a",
+        "uid" : "dd4ec353274bd575",
+        "parentUid" : "6a5c95f837a87671ef5e90aafeed6594",
         "status" : "failed",
         "time" : {
-          "start" : 1629841376009,
-          "stop" : 1629841394365,
-          "duration" : 18356
+          "start" : 1630701893978,
+          "stop" : 1630701911160,
+          "duration" : 17182
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "4722cda5fda053b3301e070a58b3878a"
+      "uid" : "6a5c95f837a87671ef5e90aafeed6594"
     }, {
-      "name" : "Element should be visible {[class=notification__title][1]}\r\nElement: '<div class=\"notification__title\" displayed:false></div>'\r\nActual value: visible:false\r\nScreenshot: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1629841415683.1.png\r\nPage source: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1629841415683.1.html\r\nTimeout: 15 s.",
+      "name" : "Element should not be visible {By.xpath: //span[@class='input__sub' and preceding-sibling::span[contains(text(), 'Владелец')]]}\r\nElement: '<span class=\"input__sub\">Поле обязательно для заполнения</span>'\r\nActual value: visible:true\r\nScreenshot: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1630701917153.6.png\r\nPage source: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1630701917153.6.html\r\nTimeout: 4 s.",
+      "children" : [ {
+        "name" : "validateCode()",
+        "uid" : "a1631496ffdc4b7e",
+        "parentUid" : "81a325857ec25d50e30fdb9d7bc1a2d9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1630701911176,
+          "stop" : 1630701917503,
+          "duration" : 6327
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "81a325857ec25d50e30fdb9d7bc1a2d9"
+    }, {
+      "name" : "Element should be visible {[class=notification__title][1]}\r\nElement: '<div class=\"notification__title\" displayed:false></div>'\r\nActual value: visible:false\r\nScreenshot: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1630701942902.7.png\r\nPage source: file:/C:/Users/Dima/IdeaProjects/qa-diploma/build/reports/tests/1630701942902.7.html\r\nTimeout: 15 s.",
       "children" : [ {
         "name" : "declinedCreditBuy()",
-        "uid" : "5c5c233276a7bf58",
-        "parentUid" : "9690ea31223ba41831fc3de87d7c674b",
+        "uid" : "33b5a4bd9bc0d808",
+        "parentUid" : "9342cd9e1efc7faf103759d7802a227d",
         "status" : "failed",
         "time" : {
-          "start" : 1629841394381,
-          "stop" : 1629841415996,
-          "duration" : 21615
+          "start" : 1630701926364,
+          "stop" : 1630701943170,
+          "duration" : 16806
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "9690ea31223ba41831fc3de87d7c674b"
+      "uid" : "9342cd9e1efc7faf103759d7802a227d"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
